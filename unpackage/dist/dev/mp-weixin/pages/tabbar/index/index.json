@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "TOMS",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar/tabbar"
+  }
+}

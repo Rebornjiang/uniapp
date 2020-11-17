@@ -1,0 +1,95 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+	    {
+            "path" : "pages/tabbar/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "TOMS",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/entry/entry",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "TOMS",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/quite/quite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "TOMS",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/departure_transfer/departure_transfer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "TOMS",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/format/format",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "TOMS",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#666",
+		"selectedColor":"#f07373",
+		"backgroundColor":"#fff",
+		"list": [
+			{
+				"pagePath":"pages/tabbar/index/index",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/active_hom.png",
+				"text": "首页"
+			},
+			{
+				"pagePath":"pages/tabbar/entry/entry",
+				"iconPath":"static/entry.png",
+				"selectedIconPath":"static/active_entry.png",
+				"text": "入职"
+			},
+			{
+				"pagePath":"pages/tabbar/quite/quite",
+				"iconPath":"static/quit.png",
+				"selectedIconPath":"static/active_quit.png",
+				"text": "离职"
+			},
+			{
+				"pagePath":"pages/tabbar/departure_transfer/departure_transfer",
+				"iconPath":"static/departure_transfer.png",
+				"selectedIconPath":"static/active_departure_transfer.png",
+				"text": "交接"
+			},
+			{
+				"pagePath":"pages/tabbar/format/format",
+				"iconPath":"static/format.png",
+				"selectedIconPath":"static/active_format.png",
+				"text": "转正"
+			}
+		]
+	}
+}
